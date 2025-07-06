@@ -223,7 +223,8 @@ export const projects: Project[] = [
     description:
       "A web-based application for managing tasks, built using React for the front-end and ASP.NET for the back-end. The application communicates via a RESTful API to handle task operations.",
     github: "https://github.com/Mingkang0/Task-Management-System",
-    status: "Working on it",
+    status: "Completed",
+    image: "/images/projects/task-management.png",
     techStacks: ["React", "ASP.NET", "C#", "SQL Server", "Restful API"],
     date: "2025-6-30",
   },
