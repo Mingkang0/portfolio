@@ -192,7 +192,7 @@ export const projects: Project[] = [
   {
     title: "Internseek",
     description:
-      "A comprehensive internship management system designed to streamline the internship application and management process for both students and employers.",
+      "A comprehensive internship application system designed to streamline the internship application process for students and recruitment process for employers.",
     image: "/images/projects/Internseek.png",
     github: "https://github.com/Mingkang0/Internseek",
     demo: "https://internseek.raegrp.com/",
