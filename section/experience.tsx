@@ -41,7 +41,7 @@ export function ExperiencesSection() {
             Professional Experience
           </h2>
           <p className="mx-auto max-w-2xl text-muted-foreground">
-            A collection of my professional experiences, showcasing my journey through various roles and projects.
+            A summary of my work experience, highlighting key roles and projects.
           </p>
         </motion.div>
 

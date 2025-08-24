@@ -105,7 +105,7 @@ export function IntroSection() {
             }}
           >
             <motion.div
-              className="w-[400px] overflow-hidden rounded-2xl border border-border/50 bg-background/80 p-6 shadow-xl backdrop-blur-xl"
+              className="w-[400px] overflow-hidden border border-border/50 bg-background/80 p-6 shadow-xl"
               style={{
                 transformStyle: "preserve-3d",
                 rotateX: cardRotateX,
@@ -132,23 +132,14 @@ export function IntroSection() {
 
                 return (
                   <motion.div
-                    className="mb-8 rounded-lg border border-border/30 bg-muted/40 p-4 font-mono text-sm"
+                    className="mb-8 border border-border/30 bg-muted/80 p-4 font-mono text-sm"
                     style={{ transform: "translateZ(25px)" }}
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 1.6 }}
                   >
-                    <div>
-                      <span className="font-medium text-pink-500 dark:text-pink-400">
-                        const
-                      </span>{" "}
-                      <span className="font-medium text-blue-500 dark:text-blue-400">
-                        developer
-                      </span>{" "}
-                      = {"{"}
-                    </div>
 
-                    <div className="mt-1 pl-6">
+                    <div className="mt-1">
                       <div>
                         <span className="text-purple-500 dark:text-purple-400">
                           skills:
@@ -177,33 +168,9 @@ export function IntroSection() {
                         ,
                       </div>
                     </div>
-                    <div className="mt-1">{"}"}</div>
                   </motion.div>
                 );
               })()}
-
-              {/* Simplified decorative elements */}
-              <div className="bg-grid-pattern pointer-events-none absolute inset-0 opacity-[0.03]"></div>
-
-              {/* Reduced to just 2 decorative dots with simpler animations */}
-              {[
-                {
-                  position: "top-0 right-0 -mt-2 -mr-2",
-                  gradient: "from-primary to-indigo-500",
-                  delay: 0,
-                },
-                {
-                  position: "bottom-0 left-0 -mb-2 -ml-2",
-                  gradient: "from-indigo-500 to-primary",
-                  delay: 1.5,
-                },
-              ].map((decoration, i) => (
-                <div
-                  key={i}
-                  className={`absolute ${decoration.position} h-5 w-5 rounded-full bg-gradient-to-r ${decoration.gradient} shadow-lg`}
-                  style={{ transform: "translateZ(35px)" }}
-                />
-              ))}
             </motion.div>
           </motion.div>
           <div className="col-span-3 lg:col-span-2">
@@ -281,7 +248,7 @@ export function IntroSection() {
               >
                 <Link href="#projects">
                   <span className="relative z-10 font-medium">
-                    View Projects
+                    View My Projects
                   </span>
                   <ArrowRight className="h-3.5 w-3.5 transition-transform group-hover:translate-x-0.5 sm:h-4 sm:w-4" />
 

@@ -32,7 +32,7 @@ export function SkillsSection() {
           className="mb-8 text-center"
         >
           <h2 className="mb-4 text-3xl font-bold md:text-4xl">
-            Skills & Expertise
+            My Skills
           </h2>
           <p className="mx-auto max-w-2xl text-muted-foreground">
             Technologies and tools I&apos;ve mastered throughout my internship and academic projects.

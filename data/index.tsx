@@ -13,7 +13,7 @@ export const personalInfo = {
   summary: <p className="mb-6 text-muted-foreground">
     I'm a fresh Software Engineering graduate with a passion for web and mobile development, and a strong interest in building user-friendly digital solutions.
     During my internship as a Front-End Developer, I worked with React, GraphQL, and MobX to create responsive and interactive interfaces, and integrated dynamic data from backend services to enhance user experiences.<br /><br />
-    While my focus is on frontend development with React and TypeScript, I'm also comfortable with backend technologies like Laravel, ASP.Net, Node.js, MySQL and PostgreSQL.
+    While my focus is on frontend development with React and TypeScript and understanding RESTful APIs, I'm also comfortable with backend technologies like Laravel, ASP.Net, Node.js, MySQL, and PostgreSQL.
   </p>
 }
 
@@ -65,7 +65,7 @@ export const experiences: Experience[] = [
     location: "Kuala Lumpur, Malaysia",
     type: "Internship",
     startDate: "2025-2-17",
-    endDate: undefined,
+    endDate: "2025-08-22",
     description:
       "Building reusable React components, optimizing frontend performance, and integrating APIs for seamless user experiences.",
     responsibilities: [

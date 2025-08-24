@@ -49,11 +49,10 @@ export function EducationsSection() {
           className="mb-16 text-center"
         >
           <h2 className="mb-4 text-3xl font-bold md:text-4xl">
-            Education & Certifications
+            Education
           </h2>
           <p className="mx-auto max-w-4xl text-muted-foreground">
-            My academic journey and continuous learning path that has shaped my
-            professional skills.
+            My academic background and qualifications that have shaped my journey.
           </p>
         </motion.div>
 

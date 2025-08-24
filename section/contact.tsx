@@ -11,9 +11,6 @@ const fadeIn = {
 };
 
 export function ContactSection() {
-  // const handleSubmit = () => {
-  //   console.log("Form submitted");
-  // };
 
   return (
     <section id="contact" className="py-16">
@@ -29,8 +26,7 @@ export function ContactSection() {
             Let&apos;s Connect
           </h2>
           <p className="mx-auto max-w-2xl text-muted-foreground">
-            Interested in working together or have questions? Feel free to reach
-            out!
+            I&apos;m always open to discussing new opportunities, collaborations, or just connecting with like-minded professionals. Feel free to reach out through any of the platforms below.
           </p>
         </motion.div>
 

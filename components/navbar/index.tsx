@@ -55,13 +55,12 @@ export default function Navbar() {
         </Avatar>
         <motion.div className="flex flex-col">
           <motion.span
-            className="font-bold text-base sm:text-xl bg-clip-text text-transparent bg-gradient-to-r from-primary to-blue-500"
+            className="font-bold text-base sm:text-xl bg-clip-text text-transparent bg-gradient-to-r from-primary to-indigo-600"
             whileHover={{ scale: 1.05 }}
             transition={{ type: "spring", stiffness: 300, damping: 8 }}
           >
             {personalInfo.name}
           </motion.span>
-          <span className="text-sm text-muted-foreground -mt-1 hidden sm:block">{personalInfo.title}</span>
         </motion.div>
       </Link>
 

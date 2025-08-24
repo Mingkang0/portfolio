@@ -36,7 +36,7 @@ export function ProjectsSection() {
           className="mb-16 text-center"
         >
           <h2 className="mb-4 text-3xl font-bold md:text-4xl">
-            Featured Projects
+            Highlighted Projects
           </h2>
           <p className="mx-auto max-w-2xl text-muted-foreground">
             Here are some of the projects I've worked on, showcasing my skills in web development, design, and problem-solving. Each project reflects my passion for creating impactful solutions.
